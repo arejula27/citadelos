@@ -1,15 +1,13 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-name: citadelos
+name: citadelos-hypr
 # description will be included in the image's metadata
 description: Simple genral OS to use as a bitcoiner
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/wayblueorg/hyprland
 image-version: 42 # latest is also supported if you want new updates ASAP
-alt-tags:
-  - hypr
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
